@@ -10,84 +10,87 @@ const Recipes = () => {
   const recipes = [
     {
       id: 1,
-      name: "Rainbow Power Salad",
+      name: "Andhra Pesarattu",
       image: healthySalad,
-      prepTime: "15 min",
-      servings: 2,
+      prepTime: "20 min",
+      servings: 4,
       difficulty: "Easy",
-      calories: 320,
-      tags: ["Vegetarian", "High Fiber", "Low Carb"],
+      calories: 280,
+      tags: ["Vegetarian", "High Protein", "Gluten Free"],
       ingredients: [
-        "2 cups mixed greens",
-        "1 cup cherry tomatoes, halved",
-        "1 avocado, diced",
-        "1/2 cucumber, sliced",
-        "1/4 cup red onion, thinly sliced",
-        "2 tbsp pumpkin seeds",
-        "2 tbsp olive oil vinaigrette"
+        "1 cup green gram (moong dal)",
+        "1/4 cup rice",
+        "2 green chilies",
+        "1 inch ginger piece",
+        "1/2 cup onions, chopped",
+        "2 tbsp coriander leaves",
+        "Salt to taste",
+        "Oil for cooking"
       ],
       instructions: [
-        "Wash and dry all vegetables thoroughly",
-        "In a large bowl, combine mixed greens, cherry tomatoes, and cucumber",
-        "Add diced avocado and red onion slices",
-        "Sprinkle pumpkin seeds on top",
-        "Drizzle with olive oil vinaigrette",
-        "Toss gently and serve immediately"
+        "Soak green gram and rice for 4 hours",
+        "Grind with green chilies and ginger to smooth batter",
+        "Add salt and mix well",
+        "Heat tawa and spread batter like dosa",
+        "Sprinkle onions and coriander on top",
+        "Cook until golden brown and serve with chutney"
       ]
     },
     {
       id: 2,
-      name: "Berry Protein Smoothie Bowl",
+      name: "Ragi Mudde Bowl",
       image: smoothieBowl,
-      prepTime: "10 min",
-      servings: 1,
+      prepTime: "15 min",
+      servings: 2,
       difficulty: "Easy",
-      calories: 380,
-      tags: ["High Protein", "Antioxidant Rich", "Gluten Free"],
+      calories: 320,
+      tags: ["High Fiber", "Calcium Rich", "Gluten Free"],
       ingredients: [
-        "1 frozen banana",
-        "1/2 cup mixed berries",
-        "1 scoop vanilla protein powder",
-        "1/2 cup Greek yogurt",
-        "1/4 cup granola",
-        "1 tbsp chia seeds",
-        "Fresh berries for topping"
+        "1 cup ragi flour (finger millet)",
+        "2 cups water",
+        "1/2 tsp salt",
+        "1 tbsp ghee",
+        "Sambar for serving",
+        "Gunpowder (podi)",
+        "Fresh curry leaves",
+        "Buttermilk"
       ],
       instructions: [
-        "Blend frozen banana, berries, protein powder, and yogurt until smooth",
-        "Pour mixture into a bowl",
-        "Top with granola, chia seeds, and fresh berries",
-        "Add any additional toppings as desired",
-        "Serve immediately while cold"
+        "Boil water with salt in a heavy-bottomed pan",
+        "Add ragi flour slowly while stirring continuously",
+        "Cook for 10-12 minutes stirring constantly",
+        "Add ghee and mix well",
+        "Shape into balls using wet hands",
+        "Serve hot with sambar, gunpowder and buttermilk"
       ]
     },
     {
       id: 3,
-      name: "Grilled Salmon with Quinoa",
+      name: "Andhra Fish Curry",
       image: salmonMeal,
-      prepTime: "25 min",
-      servings: 2,
+      prepTime: "35 min",
+      servings: 3,
       difficulty: "Medium",
-      calories: 520,
-      tags: ["High Protein", "Omega-3 Rich", "Heart Healthy"],
+      calories: 450,
+      tags: ["High Protein", "Omega-3 Rich", "Spicy"],
       ingredients: [
-        "2 salmon fillets (6 oz each)",
-        "1 cup quinoa",
-        "2 cups vegetable broth",
-        "1 bunch asparagus, trimmed",
-        "2 tbsp olive oil",
-        "1 lemon, sliced",
-        "Salt and pepper to taste",
-        "Fresh herbs for garnish"
+        "500g fish (rohu or pomfret)",
+        "1 cup tamarind pulp",
+        "2 tbsp red chili powder",
+        "1 tsp turmeric powder",
+        "1 tbsp coriander powder",
+        "1 cup onions, sliced",
+        "2 tomatoes, chopped",
+        "Curry leaves and mustard seeds"
       ],
       instructions: [
-        "Cook quinoa in vegetable broth according to package instructions",
-        "Season salmon fillets with salt, pepper, and olive oil",
-        "Preheat grill to medium-high heat",
-        "Grill salmon for 4-5 minutes per side",
-        "Steam asparagus until tender-crisp",
-        "Serve salmon over quinoa with asparagus",
-        "Garnish with lemon slices and fresh herbs"
+        "Marinate fish with turmeric and salt for 15 minutes",
+        "Heat oil and fry fish pieces until golden",
+        "In same pan, add mustard seeds and curry leaves",
+        "Add onions and cook until translucent",
+        "Add tomatoes, spice powders and tamarind pulp",
+        "Add fried fish and simmer for 10 minutes",
+        "Serve hot with steamed rice"
       ]
     }
   ];
